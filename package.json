@@ -1,0 +1,20 @@
+{
+  "name": "calendar-sync-worker",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Cloudflare Worker to sync Outlook ICS calendar to Google Calendar",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "auth": "node scripts/google-auth.js"
+  },
+  "dependencies": {
+    "ical.js": "^2.0.1"
+  },
+  "devDependencies": {
+    "wrangler": "^3.99.0",
+    "dotenv": "^16.4.5",
+    "open": "^10.1.0"
+  }
+}

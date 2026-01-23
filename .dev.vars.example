@@ -1,0 +1,7 @@
+# Copy this to .dev.vars for local development with wrangler dev
+OUTLOOK_ICS_URL=https://outlook.office365.com/owa/calendar/YOUR_CALENDAR_ID/calendar.ics
+GOOGLE_CLIENT_ID=your-client-id.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=your-client-secret
+GOOGLE_REFRESH_TOKEN=your-refresh-token
+GOOGLE_CALENDAR_ID=primary
+SYNC_TOKEN=your-random-secret-token
