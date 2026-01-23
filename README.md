@@ -1,6 +1,10 @@
 # Calendar Sync
 
-A Cloudflare Worker that syncs your Outlook calendar to Google Calendar every minute using an ICS feed. I built this because I wanted my work Outlook calendar visible alongside my personal Google Calendar without manually copying events.
+A Cloudflare Worker that syncs your Outlook calendar to Google Calendar every minute using an ICS feed.
+
+I got tired of manually checking two calendars and didn't want to pay $20/year for a subscription service to do it. This runs on Cloudflare's free tier and costs essentially nothing.
+
+Read the full write-up on my blog: [Calendar Sync](https://gonza224.github.io/blog/calendar-sync/)
 
 This could run on any serverless platform (Vercel, AWS Lambda, Deno Deploy, etc.) but I went with Cloudflare Workers.
 
