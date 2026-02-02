@@ -2,7 +2,7 @@
 
 A Cloudflare Worker that syncs your Outlook calendar to Google Calendar every minute using an ICS feed.
 
-I got tired of manually checking two calendars and didn't want to pay $20 subscription for a subscription service to do it. This runs on Cloudflare's free tier and costs essentially nothing.
+I got tired of manually checking two calendars and didn't want to pay $20 for a subscription service to do it. This runs on Cloudflare's free tier and costs essentially nothing.
 
 Read the full write-up on my blog: [Calendar Sync](https://gonza224.github.io/blog/calendar-sync/)
 
